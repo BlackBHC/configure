@@ -78,4 +78,3 @@ alias ed_cbh_set="vi $HOME/.cbh_set/cbh_set.sh"
 #
 
 
-source $HOME/.cbh_set/git.sh
