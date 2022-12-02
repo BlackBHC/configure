@@ -8,7 +8,9 @@
 ### alias
 #
 ### functions
-alias mkcd='function __mkcd(){ if [ $# == 1 ]; then mkdir $1; cd $1; unset -f __mkcd; elif [ $# == 2 ]; then mkdir $1 $2; cd $2; unset -f __mkcd; fi }; __mkcd'
+mkcd(){
+    mkdir $1 && cd $_
+}
 #
 
 
