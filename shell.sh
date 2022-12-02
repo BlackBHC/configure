@@ -44,37 +44,3 @@ alias ed_cbh_set="vi $HOME/.cbh_set/cbh_set.sh"
 
 
 
-########### C family
-##
-#### environmental variables
-##
-#export C_INCLUDE_PATH=$LIB/C
-## header include directory of C: after -I (default=./) and before system default path
-#export CPLUS_INCLUDE_PATH=$HOME/Softs/C_CP
-## similar, but of C++
-#export LD_LIBRARY_PATH=$HOME/Software/Library/Dynamic
-## dynamic library, after -L (default=./) and before system default path
-#export LIBRARY_PATH=$HOME/Softs/C_CP/lib64
-## static library, similar but correspoing to -static parameter
-## 
-#### alias
-##
-#alias gdb="gdb -silent" # open gdb without verbose messages
-##
-#
-#
-#
-########### Python
-##
-#### environmental variables
-## 
-#export PYTHONPATH=$LIB/Python # package positions
-#### alias
-##
-#alias pip="pip3"
-#alias python="python3"
-##alias 
-##
-#
-
-
