@@ -26,7 +26,7 @@ export LS_COLORS=$LS_COLORS:'*.py=00;36:*.c=00;36:*.cpp=00;36:*.qsub=01;31'
 ### alias
 #
 alias mv="mv -i" # prompt if there is same name file
-alias rm="rm -I" # prompt if rm 3(+) files
+alias rm="rm" # prompt if rm 3(+) files
 alias ls="ls --color=auto" # ls with colors
 # ordinary operations
 alias psme="ps -eo pid,tty,user,command,lstart,etime | grep $USER"
