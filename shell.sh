@@ -1,7 +1,5 @@
 ########### BinHui Chen Custome Settings ##########
 #
-
-#
 ### environmental variables
 #
 #
