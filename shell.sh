@@ -74,3 +74,10 @@ load_gadget() {
 	module load compiler/gcc-6.5.0 mpi/mpich-3.2.1-gcc fftw/3.3.8 hdf5/1.12.0
 	module load gsl/2.5
 }
+
+load_dice() {
+	module load compiler/gcc-12.2.0
+	module load package/gsl-2.7.1
+	module load package/fftw-3.3.10
+	module load compiler/cmake-3.25.1
+}
