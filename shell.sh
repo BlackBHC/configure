@@ -25,6 +25,7 @@ export LS_COLORS=$LS_COLORS:'*.py=00;36:*.c=00;36:*.cpp=00;36:*.qsub=01;31'
 #
 ### alias
 #
+alias vi="vim"
 alias mv="mv -i" # prompt if there is same name file
 alias ls="ls --color=auto" # ls with colors
 # ordinary operations
@@ -67,7 +68,7 @@ alias delqueue="qselect -u $USER -s Q | xargs qdel"
 alias delrun="qselect -u $USER -s R | xargs qdel"
 #
 ### functions
-funtions load_gadget() {
+load_gadget() {
 	module load compiler/gcc-6.5.0 mpi/mpich-3.2.1-gcc fftw/3.3.8 hdf5/1.12.0
 	module load gsl/2.5
 }
