@@ -35,6 +35,7 @@ alias psme="ps -eo pid,tty,user,command,lstart,etime | grep $USER"
 alias psall="ps -eo pid,tty,user,command,lstart,etime"
 alias topme="htop -u $USER"
 alias kill="kill -9"
+alias killme="pkill -u $USER"
 # process control
 alias ed_zshrc="vim $HOME/.zshrc"
 alias up_zshrc="source $HOME/.zshrc"
