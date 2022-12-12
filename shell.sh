@@ -2,6 +2,8 @@
 #
 ### environmental variables
 #
+export MODULEPATH=$MODULEPATH:$HOME/Software/modulefiles
+#
 #
 ### alias
 #
