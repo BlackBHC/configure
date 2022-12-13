@@ -83,13 +83,6 @@ load_dice() {
 	module load compiler/cmake-3.25.1
 }
 
-load_galic() {
-	module load compiler/gcc-12.2.0
-	module load package/hdf5-1.12.0
-	module load package/mpich-4.0.3
-	module load package/gsl-2.7.1
-}
-
 load_galaxy() {
 	module load mpi/openmpi-3.1.1
 }
