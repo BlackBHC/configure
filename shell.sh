@@ -29,7 +29,7 @@ export LS_COLORS=$LS_COLORS:'*.py=00;36:*.c=00;36:*.cpp=00;36:*.qsub=01;31'
 #
 alias vi="vim"
 alias mv="mv -i" # prompt if there is same name file
-alias ls="ls --color=auto" # ls with colors
+alias ls="exa" # ls with colors
 # ordinary operations
 alias psme="ps -eo pid,tty,user,command,lstart,etime | grep $USER"
 alias psall="ps -eo pid,tty,user,command,lstart,etime"
@@ -51,7 +51,7 @@ alias ed_cbh_set="vi $HOME/.cbh_set/cbh_set.sh"
 ########## Gravity work flow
 #
 ### environmental variables and settings
-export PATH=$PATH:/home/bhchen/SimSoft/GALAXY16.04/bin
+export PATH=$PATH:/home/bhchen/Software/SimSoft/GALAXY16.04/bin
 # path for GALAXY16
 export VMG=$HOME/FeGradient
 export VMGIC=$VMG/IC
@@ -81,4 +81,14 @@ load_dice() {
 	module load package/gsl-2.7.1
 	module load package/fftw-3.3.10
 	module load compiler/cmake-3.25.1
+}
+
+load_galic() {
+	module load compiler/gcc-12.2.0
+	module load hdf5/1.12.0
+	module load package/mpich-4.0.3
+}
+
+load_galaxy() {
+	module load mpi/openmpi-3.1.1
 }
