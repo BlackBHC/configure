@@ -17,7 +17,7 @@ mkcd(){
 ########## System configuration
 #
 ### environmental variables and settings
-set -o vi
+set -o emacs
 # using vim style for editting command lines
 export HISTSIZE=1000
 # the history size of command lines
