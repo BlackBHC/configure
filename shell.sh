@@ -87,6 +87,7 @@ load_galic() {
 	module load compiler/gcc-12.2.0
 	module load hdf5/1.12.0
 	module load package/mpich-4.0.3
+	module load pacgage/gsl-2.7.1
 }
 
 load_galaxy() {
