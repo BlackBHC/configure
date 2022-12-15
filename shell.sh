@@ -81,7 +81,7 @@ load_dice() {
 	module load package/gsl-2.7.1
 	module load package/fftw-3.3.10
 	module load compiler/cmake-3.25.1
-	module load soft/dice
+	module load soft/dice-4.8
 }
 
 load_galaxy() {
