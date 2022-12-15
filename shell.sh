@@ -81,6 +81,7 @@ load_dice() {
 	module load package/gsl-2.7.1
 	module load package/fftw-3.3.10
 	module load compiler/cmake-3.25.1
+	module load mpi/openmpi-4.0.3
 	module load soft/dice-4.8
 }
 
