@@ -69,6 +69,9 @@ alias topme="htop -u $USER"
 alias delall="qselect -u $USER | xargs qdel"
 alias delqueue="qselect -u $USER -s Q | xargs qdel"
 alias delrun="qselect -u $USER -s R | xargs qdel"
+alias debug="qsub -I -l nodes=1:ppn=1,mem=30gb,walltime=3:00:00 -q debug"
+alias debug16="qsub -I -l nodes=1:ppn=16,mem=100gb,walltime=3:00:00 -q debug"
+alias debug72="qsub -I -l nodes=1:ppn=72,mem=360gb,walltime=3:00:00 -q debug"
 #
 ### functions
 load_gadget() {
