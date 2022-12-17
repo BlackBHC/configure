@@ -92,3 +92,9 @@ load_dice() {
 load_galaxy() {
 	module load mpi/openmpi-3.1.1
 }
+
+load_galic() {
+	module load compiler/gcc-12.2.0
+	module load package/gsl-2.7.1   package/hdf5-1.12.2 package/mpich-4.0.3
+	module load soft/galic-1.0
+}
